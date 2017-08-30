@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript">
+  /*
+  requirejs使用步骤
+  1、引入require.js文件
+  2、定义模块和依赖
+  3、通过require方法调用入口模块
+  4、入口模块又依赖别的模块，别的模块再依赖别的模块
+
+  依赖树
+  */
+  </script>
+  <!-- <script data-main="main" src="require.js"></script> -->
+  <script src="require.js"></script>
+  <script type="text/javascript">
+    require(['main'],function(m){
+      console.log(m);
+    })
+  </script>
+</head>
+<body>
+  <div>require</div>
+</body>
+</html>
